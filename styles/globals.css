@@ -3,10 +3,10 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Roboto Mono', monospace;
-    margin: 0rem 3%;
-    background: #fff;
-    --primary: #2d2d2d;
-    --secondary: #535353;
+  margin: 0rem 3%;
+  background: #fff;
+  --primary: #2d2d2d;
+  --secondary: #535353;
 }
 
 h2 {
@@ -34,7 +34,7 @@ p {
   line-height: 150%;
 }
 
-.banner > img {
+.banner>img {
   border-radius: 20px;
 }
 
@@ -49,15 +49,38 @@ footer {
   justify-content: space-between;
 }
 
-.col-one > p {
+.col-one>p {
   padding: 0.8rem 0rem;
 }
 
-.col-two > p {
+.col-two>p {
   padding: 0.8rem 0rem;
 
 }
 
 .col-three {
   padding: 0.8rem 0rem;
+}
+
+.logout {
+
+  transform: translateX(-20%);
+  height: 40px;
+  width: 100px;
+  position: absolute !important;
+  z-index: 1000;
+  top: 0;
+  margin-top: 50px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  color: black;
+}
+
+.imgbord {
+  border: 1.5px solid grey;
+  padding: 1px;
 }
