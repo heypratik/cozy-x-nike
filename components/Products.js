@@ -3,8 +3,7 @@ import Link from "next/link";
 
 function Products(props) {
   const { title, price, image, slug } = props.attributes;
-  // let bannerImg = image.data.attributes.thumbnail.url;
-    let bannerImg = 'https://res.cloudinary.com/devsleqoe/image/upload/v1664005144/medium_93a71132_c8b3_4695_a6e8_1cba2c3d50d7_d708c44298.webp'
+  let bannerImg = image.data.attributes.small.url;
 
   return (
     <ProductStyle
