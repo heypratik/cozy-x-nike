@@ -8,6 +8,8 @@ export const ProductStyle = styled(motion.div) `
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    margin: 10px;
+    width: 312px;
     cursor: pointer;
     img {
         width: 100%;

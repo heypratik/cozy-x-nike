@@ -31,6 +31,7 @@ export default function User() {
       <img className={`imgPP ${logoutDiv && 'imgbord'}`} src={user.picture} alt={user.name} />
       <h3>{user.name}</h3>
       {logoutDiv && <div className="logout">
+        <p onClick={() => route.push("/my-orders")}>My Orders</p>
         <p onClick={() => route.push("/api/auth/logout")}>Logout</p>
       </div>}
     </Profile>

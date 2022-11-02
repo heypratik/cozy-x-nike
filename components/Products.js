@@ -11,6 +11,7 @@ function Products(props) {
       transition={{ delay: 0.3 }}
     >
       <div>
+
         <Link href={`/products/${slug}`}>
           {image && <img src={image.data.attributes.formats.medium.url} alt={title} />}
         </Link>

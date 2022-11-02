@@ -9,6 +9,13 @@ export const NavStyles =  styled.div `
     a {
         font-size: 1.2rem;
     }
+
+    @media only screen and (max-width: 767px) {
+    /* phones */
+    a {
+        font-size: 0.8rem;
+    }
+}
 ` 
 
 export const NavItems = styled.div `

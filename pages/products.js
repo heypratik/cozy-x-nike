@@ -4,16 +4,81 @@ import {PRODUCT_QUERY} from '../lib/query'
 import Products from '../components/Products'
 import { Gallery } from '../styles/Gallery'
 import {AiFillTwitterCircle, AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
-
+import { useEffect, useState } from 'react'
+import Slider from '@mui/material/Slider';
+import productStyle from '../pages/products/product.module.css'
 
 export default function SS() {
 
   const [results] = useQuery({query: PRODUCT_QUERY})
   const {data, fetching, error} = results
+  const [filteredProducts, setFilteredProducts] = useState([])
+  const [newfilteredProducts, setNewFilteredProducts] = useState([])
+  const [priceFilter, setPriceFilter] = useState()
+  const [checkboxFilter, setCheckboxFilter] = useState([])
 
+  useEffect(() => {
+    setFilteredProducts(JSON.parse(localStorage.getItem('prods')))
+    setNewFilteredProducts(JSON.parse(localStorage.getItem('prods')))
+  }, [])
+
+
+    
   if (fetching) return <p>Loading...</p>
   if (error) return <p>There was an error. {error.message}</p>
+  
   const products = data.products.data
+
+  console.log()
+
+
+function sliderData(e) {
+  console.log(e.target.value)
+  setPriceFilter(e.target.value)
+  filterbyPrice()
+}
+
+function filterbyPrice() {
+  if (checkboxFilter.includes('Jordan')) {
+    setNewFilteredProducts(filteredProducts.filter(prod => prod.attributes.price < priceFilter && prod.attributes.title.includes('Jordan')))
+  } else if (checkboxFilter.includes('Air')) {
+    setNewFilteredProducts(filteredProducts.filter(prod => prod.attributes.price < priceFilter && prod.attributes.title.includes('Air')))
+} else if (checkboxFilter.includes('Air') && checkboxFilter.includes('Jordan') ) {
+  setNewFilteredProducts(filteredProducts.filter(prod => prod.attributes.price < priceFilter && prod.attributes.title.includes('Air') && prod.attributes.title.includes('Jordan')))
+} else {
+  setNewFilteredProducts(filteredProducts.filter(prod => prod.attributes.price < priceFilter))
+} 
+
+}
+
+function handleCheckbox(e) {
+  if (checkboxFilter.includes(e.target.value)) {
+    setCheckboxFilter(prevState => prevState.filter(value => value !== e.target.value))
+  } else {
+   setCheckboxFilter(prevState => [...prevState, e.target.value])
+}
+}
+
+function domProds() {
+  if (checkboxFilter.length > 1) {
+    return newfilteredProducts.map(product => 
+      <Products {...product} key={product.attributes.slug}/>
+      )
+  } else if (checkboxFilter.includes('Air')) {
+    return newfilteredProducts.filter(prod => prod.attributes.title.includes('Air')).map(product => 
+      <Products {...product} key={product.attributes.slug}/>
+      )
+  }
+  else if (checkboxFilter.includes('Jordan')) {
+    return newfilteredProducts.filter(prod => prod.attributes.title.includes('Jordan')).map(product => 
+      <Products {...product} key={product.attributes.slug}/>
+      )
+  } else {
+    return newfilteredProducts.map(product => 
+      <Products {...product} key={product.attributes.slug}/>
+      )
+  }
+}
 
   return (
     <div>
@@ -24,10 +89,26 @@ export default function SS() {
       </Head>
 
       <main>
+        <div className='filters'>
+          <div className='slider'>
+            <p>Filter by price</p>
+          <Slider
+        defaultValue={300}
+        aria-label="Small"
+        valueLabelDisplay="auto"
+        min={129}
+        onChange={e => sliderData(e)}
+  max={300}
+      />
+          </div>
+          <div className='checkbox'>
+          <p>Filter by type</p>
+          <label><input type="checkbox" name="Air" value='Air' onClick={e => handleCheckbox(e)}/>Nike Air</label>
+          <label><input type="checkbox" name="Air" value='Jordan' onClick={e => handleCheckbox(e)}/>Jordan</label>
+          </div>
+        </div>
         <Gallery>
-        {products.map(product => 
-        <Products {...product} key={product.attributes.slug}/>
-        )}
+        {domProds()}
         </Gallery>
       </main>
       <footer>

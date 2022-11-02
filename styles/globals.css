@@ -49,6 +49,17 @@ footer {
   justify-content: space-between;
 }
 
+@media only screen and (max-width: 767px) {
+
+  /* phones */
+  footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0px;
+  }
+}
+
 .col-one>p {
   padding: 0.8rem 0rem;
 }
@@ -63,9 +74,9 @@ footer {
 }
 
 .logout {
-
+  justify-content: space-around;
   transform: translateX(-20%);
-  height: 40px;
+  height: 80px;
   width: 100px;
   position: absolute !important;
   z-index: 1000;
@@ -83,4 +94,181 @@ footer {
 .imgbord {
   border: 1.5px solid grey;
   padding: 1px;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wishlistIcon {
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+/* Fav JS CSS */
+
+.favPage {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.favPage>button {
+  cursor: pointer;
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+  width: 250px;
+}
+
+.wish-parent {
+  transform: scale(0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+
+  /* phones */
+  .wish-parent {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .wish-detail-cont {
+    padding: 20px !important;
+  }
+
+  .prod-img {
+    width: 100%;
+  }
+}
+
+.wish-detail-cont {
+  padding-left: 40px;
+}
+
+.wish-detail-cont>button {
+  cursor: pointer;
+  padding: 20px;
+  border: none;
+  font-weight: bold;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.wish-detail-cont>h2 {
+  padding: 20px 0px;
+
+}
+
+/* */
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f6f6f6;
+  padding: 0px;
+  margin: 30px 0px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+
+  /* phones */
+  .filters {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slider {
+    flex: 1;
+    width: 95%;
+  }
+
+  .checkbox {
+    width: 95%;
+    flex: 1;
+  }
+}
+
+.slider {
+  flex: 1;
+  padding: 20px 40px;
+}
+
+.slider>p {
+  margin-bottom: 10px;
+}
+
+.checkbox {
+  padding: 20px 40px;
+  flex: 1;
+}
+
+.checkbox>p {
+  margin-bottom: 10px;
+}
+
+.checkbox>label {
+  margin-right: 30px;
+}
+
+input[type="checkbox"] {
+  margin: 0px 5px 0px 0px;
+}
+
+
+.allProds {
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 50px;
+  border: none;
+  font-weight: bold;
+}
+
+.belowProd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/*Orders*/
+
+.orderlist {
+  background-color: #f6f6f6;
+  padding: 20px;
+  margin: 10px 0px;
+  border-radius: 20px;
+}
+
+.empty-order {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.empty-order>button {
+  background: white;
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 20px;
+  border: none;
+  font-weight: bold;
+  width: 200px;
+  margin-top: 20px;
 }

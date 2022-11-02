@@ -7,10 +7,27 @@ export const DetailsStyle = styled.div`
     img {
         width: 35%;
     }
+
+    @media only screen and (max-width: 767px) {
+    /* phones */
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
 `
 
 export const ProductInfo = styled.div `
     width: 60%;
+
+    @media only screen and (max-width: 767px) {
+    /* phones */
+    width: 100%;
+}
+
     button {
         font-size: 1rem;
         font-weight: medium;

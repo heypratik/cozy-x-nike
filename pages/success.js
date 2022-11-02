@@ -1,9 +1,11 @@
 import { INTERNALS } from 'next/dist/server/web/spec-extension/request'
 import {useRouter} from 'next/router'
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useContext} from 'react'
 import styled from 'styled-components'
 const {motion} = require('framer-motion')
 const stripe = require('stripe')(`${process.env.NEXT_PUBLIC_STRIPE_SECRET_KEY}`)
+import ShopContext from "../lib/context"
+
 
 export async function getServerSideProps(params) {
     const order = await stripe.checkout.sessions.retrieve(
@@ -14,8 +16,36 @@ export async function getServerSideProps(params) {
 
 export default function Success({order}) {
 
+    const {setOrderHistoryList, orderHistoryList } = useContext(ShopContext);
 
-    const route = useRouter()
+
+    const [orderHistory, setOrderHistory]  = useState(order)    
+
+    useEffect(() => {
+        localStorage.setItem('ORDERHISTORY', JSON.stringify(orderHistory))
+    }, [])
+    
+    
+    useEffect(() => {
+    if (orderHistoryList) {
+        console.log('sss')
+        // setOrderHistoryList(prevState => [...prevState, order])
+        setOrderHistoryList(order)
+    } else {
+        setOrderHistoryList(order)
+    }
+    }, [orderHistory])
+
+
+    useEffect(() => {
+        console.log('thisran')
+        orderHistoryList && window.localStorage.setItem('ORDERS', JSON.stringify(orderHistoryList))
+    }, [orderHistory])
+    
+
+    
+
+        const route = useRouter()
     return (
     <Wrapper>
         <Card animate={{opacity: 1, scale: 1}} initial={{opacity: 0, scale: 0}} transition={{duration: 0.5}}>

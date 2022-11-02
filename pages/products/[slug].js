@@ -1,6 +1,7 @@
 import { useQuery } from "urql";
 import { GET_PRODUCT_QUERY } from "../../lib/query";
 import { useRouter } from "next/router";
+import React, {useState} from "react";
 import {
   DetailsStyle,
   ProductInfo,
@@ -10,7 +11,7 @@ import {
   Details,
   Line,
 } from "../../styles/ProductDetails";
-import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai";
+import { AiFillPlusCircle, AiFillMinusCircle, AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 import { useContext } from "react";
 import ShopContext from "../../lib/context";
 import {
@@ -21,12 +22,13 @@ import {
 import toast from "react-hot-toast";
 import { useEffect } from "react";
 
+
 export default function ProductDetails() {
   useEffect(() => {
     setQty(1);
   }, []);
 
-  const { qty, addQty, reduceQty, onAdd, setQty } = useContext(ShopContext);
+  const { qty, addQty, reduceQty, onAdd, setQty, setWishList, favItems } = useContext(ShopContext);
 
   const { query } = useRouter();
 
@@ -36,6 +38,24 @@ export default function ProductDetails() {
   });
 
   const { data, fetching, error } = results;
+
+  const [deterHeart, setDeterHeart] = useState()
+
+ useEffect(() => {
+  if (favItems.length === 0) { 
+    setDeterHeart(false)
+  }
+
+  for (let item of favItems) { 
+    if (item.slug === query.slug) {
+      return setDeterHeart(true)
+    } else {
+       setDeterHeart(false)
+    }
+  }
+
+ }, [favItems]) 
+
 
   if (fetching) return <p>Loading...</p>;
   if (error) return <p>There was an error. {error.message}</p>;
@@ -66,6 +86,7 @@ export default function ProductDetails() {
               <AiFillPlusCircle onClick={addQty} />
             </button>
           </Quantity>
+          <div className="cta">
           <Buy
             onClick={() => {
               onAdd(data.products.data[0].attributes, qty);
@@ -74,6 +95,8 @@ export default function ProductDetails() {
           >
             Add to Cart
           </Buy>
+          {deterHeart ? <AiFillHeart onClick={() => setWishList(data.products.data[0].attributes)} className="wishlistIcon" fontSize={50} /> : <AiOutlineHeart onClick={() => setWishList(data.products.data[0].attributes)} className="wishlistIcon" fontSize={50}/>}
+          </div>
         </ProductInfo>
       </DetailsStyle>
       <Details>

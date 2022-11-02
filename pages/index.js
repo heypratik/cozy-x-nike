@@ -1,4 +1,5 @@
 import Head from "next/head";
+import {Link} from "next/link";
 import { useQuery } from "urql";
 import { PRODUCT_QUERY } from "../lib/query";
 import Products from "../components/Products";
@@ -9,14 +10,26 @@ import {
   AiFillGithub,
   AiFillLinkedin,
 } from "react-icons/ai";
+import { useRouter } from 'next/router'
+
+
 
 export default function Home() {
+
+  const router = useRouter()
   const [results] = useQuery({ query: PRODUCT_QUERY });
-  const { data, fetching, error } = results;
+  const { data, fetching, error } = results;  
+  
 
   if (fetching) return <p>Loading...</p>;
   if (error) return <p>There was an error. {error.message}</p>;
   const products = data.products.data;
+
+  function setStorj() {
+    localStorage.setItem('prods', JSON.stringify(products))
+    router.push('/products')
+  }
+
 
   return (
     <div>
@@ -35,6 +48,9 @@ export default function Home() {
             <Products {...product} key={product.attributes.slug} />
           ))}
         </Gallery>
+        <div className="belowProd">
+        <button className="allProds" onClick={setStorj}>View Products</button>
+        </div>
       </main>
       <footer>
         <div className="col-one">

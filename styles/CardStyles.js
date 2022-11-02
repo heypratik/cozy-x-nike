@@ -20,6 +20,12 @@ export const CartStyle = styled(motion.div) `
     overflow-y: scroll;
     overflow-x: hidden;
     position: relative;
+
+    @media only screen and (max-width: 767px) {
+    /* phones */
+    width: 80%;
+    padding: 1rem 1.5rem;
+}
 `
 
 export const Card = styled(motion.div) `
@@ -34,6 +40,14 @@ margin: 2rem 0rem;
 img {
     width: 8rem;
  }
+
+ @media only screen and (max-width: 767px) {
+    /* phones */
+    img {
+    width: 5rem;
+ }
+ justify-content: flex-start;
+}
 `
 
 export const CardInfo = styled(motion.div) `
@@ -42,6 +56,15 @@ export const CardInfo = styled(motion.div) `
         display: flex;
         flex-direction: space-between;
     }
+
+    @media only screen and (max-width: 767px) {
+    /* phones */
+    h3 {
+        font-size: 15px;
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+}
 
 `
 
