@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useState,useEffect  } from "react";
 import { useRouter } from 'next/router'
 
-const myOrders = () => {
+const MyOrders = () => {
   const router = useRouter()
   const [orderHistoryList, setOrderHistoryList ] = useState([]);
   
@@ -32,4 +32,4 @@ const myOrders = () => {
   )
 }
 
-export default myOrders
+export default MyOrders

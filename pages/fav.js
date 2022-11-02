@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useRouter } from 'next/router'
 
 
-const fav = () => {
+const Fav = () => {
     const router = useRouter()
 
 
@@ -48,4 +48,4 @@ const fav = () => {
     )
 }
 
-export default fav
+export default Fav
