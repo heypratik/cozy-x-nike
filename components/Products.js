@@ -13,7 +13,7 @@ function Products(props) {
       <div>
 
         <Link href={`/products/${slug}`}>
-          {image && <img src={image.data.attributes.formats.medium.url} alt={title} />}
+          {image && <img src={image?.data?.attributes?.formats?.medium?.url} alt={title} />}
         </Link>
       </div>
       <div>

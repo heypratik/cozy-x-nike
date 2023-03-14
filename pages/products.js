@@ -7,6 +7,7 @@ import {AiFillTwitterCircle, AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
 import { useEffect, useState } from 'react'
 import Slider from '@mui/material/Slider';
 import productStyle from '../pages/products/product.module.css'
+import  prodData from '../lib/data.json'
 
 export default function SS() {
 
@@ -22,18 +23,10 @@ export default function SS() {
     setNewFilteredProducts(JSON.parse(localStorage.getItem('prods')))
   }, [])
 
-
-    
-  if (fetching) return <p>Loading...</p>
-  if (error) return <p>There was an error. {error.message}</p>
   
-  const products = data.products.data
-
-  console.log()
-
+  const products = prodData.products.data
 
 function sliderData(e) {
-  console.log(e.target.value)
   setPriceFilter(e.target.value)
   filterbyPrice()
 }

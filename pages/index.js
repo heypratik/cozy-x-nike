@@ -11,19 +11,16 @@ import {
   AiFillLinkedin,
 } from "react-icons/ai";
 import { useRouter } from 'next/router'
+import  prodData from '../lib/data.json'
 
 
 
 export default function Home() {
 
-  const router = useRouter()
-  const [results] = useQuery({ query: PRODUCT_QUERY });
-  const { data, fetching, error } = results;  
-  
 
-  if (fetching) return <p>Loading...</p>;
-  if (error) return <p>There was an error. {error.message}</p>;
-  const products = data.products.data;
+  const router = useRouter() 
+
+  const products = prodData.products.data;
 
   function setStorj() {
     localStorage.setItem('prods', JSON.stringify(products))

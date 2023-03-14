@@ -21,6 +21,7 @@ import {
 } from "react-icons/ai";
 import toast from "react-hot-toast";
 import { useEffect } from "react";
+import  prodData from '../../lib/data.json'
 
 
 export default function ProductDetails() {
@@ -36,6 +37,11 @@ export default function ProductDetails() {
     query: GET_PRODUCT_QUERY,
     variables: { slug: query.slug },
   });
+
+  
+  const mainProd = prodData.products.data.filter(prod => {
+    return prod.attributes.slug === query.slug
+  })
 
   const { data, fetching, error } = results;
 
@@ -58,9 +64,8 @@ export default function ProductDetails() {
 
 
   if (fetching) return <p>Loading...</p>;
-  if (error) return <p>There was an error. {error.message}</p>;
 
-  const { title, description, image, price } = data.products.data[0].attributes;
+  const { title, description, image, price } = mainProd[0].attributes;
 
   function notify() {
     toast.success("Added to cart");
@@ -89,13 +94,13 @@ export default function ProductDetails() {
           <div className="cta">
           <Buy
             onClick={() => {
-              onAdd(data.products.data[0].attributes, qty);
+              onAdd(mainProd[0].attributes, qty);
               notify();
             }}
           >
             Add to Cart
           </Buy>
-          {deterHeart ? <AiFillHeart onClick={() => setWishList(data.products.data[0].attributes)} className="wishlistIcon" fontSize={50} /> : <AiOutlineHeart onClick={() => setWishList(data.products.data[0].attributes)} className="wishlistIcon" fontSize={50}/>}
+          {deterHeart ? <AiFillHeart onClick={() => setWishList(mainProd[0].attributes)} className="wishlistIcon" fontSize={50} /> : <AiOutlineHeart onClick={() => setWishList(mainProd[0].attributes)} className="wishlistIcon" fontSize={50}/>}
           </div>
         </ProductInfo>
       </DetailsStyle>

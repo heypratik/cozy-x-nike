@@ -1,0 +1,655 @@
+{
+    "products": {
+        "data": [
+            {
+                "attributes": {
+                    "title": "Jordan Delta 3 SP",
+                    "description": "Combining high-end craft with high-tech features, these kicks are the embodiment of cool. Airy Ripstop and soft suede pair with a soft interior for a classic look and premium Jordan Brand comfort.",
+                    "price": 129,
+                    "slug": "jordan-delta-3-sp",
+                    "image": {
+                        "data": {
+                            "attributes": {
+                                "formats": {
+                                    "thumbnail": {
+                                        "name": "thumbnail_03b18087-0db2-4945-af81-c25b2078f8fc.webp",
+                                        "hash": "thumbnail_03b18087_0db2_4945_af81_c25b2078f8fc_672bae54fd",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 125,
+                                        "height": 156,
+                                        "size": 1.67,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662886730/thumbnail_03b18087_0db2_4945_af81_c25b2078f8fc_672bae54fd.webp",
+                                        "provider_metadata": {
+                                            "public_id": "thumbnail_03b18087_0db2_4945_af81_c25b2078f8fc_672bae54fd",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "small": {
+                                        "name": "small_03b18087-0db2-4945-af81-c25b2078f8fc.webp",
+                                        "hash": "small_03b18087_0db2_4945_af81_c25b2078f8fc_672bae54fd",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 400,
+                                        "height": 500,
+                                        "size": 9.42,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662886731/small_03b18087_0db2_4945_af81_c25b2078f8fc_672bae54fd.webp",
+                                        "provider_metadata": {
+                                            "public_id": "small_03b18087_0db2_4945_af81_c25b2078f8fc_672bae54fd",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "large": {
+                                        "name": "large_03b18087-0db2-4945-af81-c25b2078f8fc.webp",
+                                        "hash": "large_03b18087_0db2_4945_af81_c25b2078f8fc_672bae54fd",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 800,
+                                        "height": 1000,
+                                        "size": 26.24,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662886731/large_03b18087_0db2_4945_af81_c25b2078f8fc_672bae54fd.webp",
+                                        "provider_metadata": {
+                                            "public_id": "large_03b18087_0db2_4945_af81_c25b2078f8fc_672bae54fd",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "medium": {
+                                        "name": "medium_03b18087-0db2-4945-af81-c25b2078f8fc.webp",
+                                        "hash": "medium_03b18087_0db2_4945_af81_c25b2078f8fc_672bae54fd",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 600,
+                                        "height": 750,
+                                        "size": 17.3,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662886731/medium_03b18087_0db2_4945_af81_c25b2078f8fc_672bae54fd.webp",
+                                        "provider_metadata": {
+                                            "public_id": "medium_03b18087_0db2_4945_af81_c25b2078f8fc_672bae54fd",
+                                            "resource_type": "image"
+                                        }
+                                    }
+                                },
+                                "__typename": "UploadFile"
+                            },
+                            "__typename": "UploadFileEntity"
+                        },
+                        "__typename": "UploadFileEntityResponse"
+                    },
+                    "__typename": "Product"
+                },
+                "__typename": "ProductEntity"
+            },
+            {
+                "attributes": {
+                    "title": "Nike Air Force 1 Mid '07 LX",
+                    "description": "Crossing hardwood comfort with off-court flair, the b-ball original gets you ready for autumn. Premium materials like slub canvas underlays bring a classic look, while textured leather adds sophistication to any outfit. Vintage Sail accents on the outsole and Swoosh pair with throwback labelling for a retro boost.",
+                    "price": 279,
+                    "slug": "nike-air-force-1-mid-07-lx",
+                    "image": {
+                        "data": {
+                            "attributes": {
+                                "formats": {
+                                    "thumbnail": {
+                                        "name": "thumbnail_c542a445-5856-4102-b8c6-e0cc5d060ffa.webp",
+                                        "hash": "thumbnail_c542a445_5856_4102_b8c6_e0cc5d060ffa_45bc8a0359",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 125,
+                                        "height": 156,
+                                        "size": 1.08,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662886835/thumbnail_c542a445_5856_4102_b8c6_e0cc5d060ffa_45bc8a0359.webp",
+                                        "provider_metadata": {
+                                            "public_id": "thumbnail_c542a445_5856_4102_b8c6_e0cc5d060ffa_45bc8a0359",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "medium": {
+                                        "name": "medium_c542a445-5856-4102-b8c6-e0cc5d060ffa.webp",
+                                        "hash": "medium_c542a445_5856_4102_b8c6_e0cc5d060ffa_45bc8a0359",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 600,
+                                        "height": 750,
+                                        "size": 12.07,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662886835/medium_c542a445_5856_4102_b8c6_e0cc5d060ffa_45bc8a0359.webp",
+                                        "provider_metadata": {
+                                            "public_id": "medium_c542a445_5856_4102_b8c6_e0cc5d060ffa_45bc8a0359",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "small": {
+                                        "name": "small_c542a445-5856-4102-b8c6-e0cc5d060ffa.webp",
+                                        "hash": "small_c542a445_5856_4102_b8c6_e0cc5d060ffa_45bc8a0359",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 400,
+                                        "height": 500,
+                                        "size": 6.47,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662886835/small_c542a445_5856_4102_b8c6_e0cc5d060ffa_45bc8a0359.webp",
+                                        "provider_metadata": {
+                                            "public_id": "small_c542a445_5856_4102_b8c6_e0cc5d060ffa_45bc8a0359",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "large": {
+                                        "name": "large_c542a445-5856-4102-b8c6-e0cc5d060ffa.webp",
+                                        "hash": "large_c542a445_5856_4102_b8c6_e0cc5d060ffa_45bc8a0359",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 800,
+                                        "height": 1000,
+                                        "size": 18.9,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662886835/large_c542a445_5856_4102_b8c6_e0cc5d060ffa_45bc8a0359.webp",
+                                        "provider_metadata": {
+                                            "public_id": "large_c542a445_5856_4102_b8c6_e0cc5d060ffa_45bc8a0359",
+                                            "resource_type": "image"
+                                        }
+                                    }
+                                },
+                                "__typename": "UploadFile"
+                            },
+                            "__typename": "UploadFileEntity"
+                        },
+                        "__typename": "UploadFileEntityResponse"
+                    },
+                    "__typename": "Product"
+                },
+                "__typename": "ProductEntity"
+            },
+            {
+                "attributes": {
+                    "title": "Nike Air Max 97 Premium",
+                    "description": "Layer on style with the Air Max 97. Its iconic design gets updated with premium materials like cracked leather and soft suede. The original look, inspired by Japanese bullet trains and water droplets, still takes centre stage, while easy-to-style colours let you hit the streets quickly. Full-length Nike Air cushioning lets you ride in first-class comfort.",
+                    "price": 259,
+                    "slug": "nike-air-max-97-premium",
+                    "image": {
+                        "data": {
+                            "attributes": {
+                                "formats": {
+                                    "thumbnail": {
+                                        "name": "thumbnail_10a0f725-7627-45ed-a8c0-57c66320753c.webp",
+                                        "hash": "thumbnail_10a0f725_7627_45ed_a8c0_57c66320753c_37d64f7527",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 125,
+                                        "height": 156,
+                                        "size": 1.39,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662886873/thumbnail_10a0f725_7627_45ed_a8c0_57c66320753c_37d64f7527.webp",
+                                        "provider_metadata": {
+                                            "public_id": "thumbnail_10a0f725_7627_45ed_a8c0_57c66320753c_37d64f7527",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "small": {
+                                        "name": "small_10a0f725-7627-45ed-a8c0-57c66320753c.webp",
+                                        "hash": "small_10a0f725_7627_45ed_a8c0_57c66320753c_37d64f7527",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 400,
+                                        "height": 500,
+                                        "size": 8.48,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662886874/small_10a0f725_7627_45ed_a8c0_57c66320753c_37d64f7527.webp",
+                                        "provider_metadata": {
+                                            "public_id": "small_10a0f725_7627_45ed_a8c0_57c66320753c_37d64f7527",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "large": {
+                                        "name": "large_10a0f725-7627-45ed-a8c0-57c66320753c.webp",
+                                        "hash": "large_10a0f725_7627_45ed_a8c0_57c66320753c_37d64f7527",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 800,
+                                        "height": 1000,
+                                        "size": 25.77,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662886874/large_10a0f725_7627_45ed_a8c0_57c66320753c_37d64f7527.webp",
+                                        "provider_metadata": {
+                                            "public_id": "large_10a0f725_7627_45ed_a8c0_57c66320753c_37d64f7527",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "medium": {
+                                        "name": "medium_10a0f725-7627-45ed-a8c0-57c66320753c.webp",
+                                        "hash": "medium_10a0f725_7627_45ed_a8c0_57c66320753c_37d64f7527",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 600,
+                                        "height": 750,
+                                        "size": 16.64,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662886874/medium_10a0f725_7627_45ed_a8c0_57c66320753c_37d64f7527.webp",
+                                        "provider_metadata": {
+                                            "public_id": "medium_10a0f725_7627_45ed_a8c0_57c66320753c_37d64f7527",
+                                            "resource_type": "image"
+                                        }
+                                    }
+                                },
+                                "__typename": "UploadFile"
+                            },
+                            "__typename": "UploadFileEntity"
+                        },
+                        "__typename": "UploadFileEntityResponse"
+                    },
+                    "__typename": "Product"
+                },
+                "__typename": "ProductEntity"
+            },
+            {
+                "attributes": {
+                    "title": "Nike ISPA Link",
+                    "description": "Don't get puzzled. Zero glue, two pieces and a whole lot of comfort. Constructed with interlocking components, the ISPA Link was designed for disassembly and with the intent to use as few materials as possible. Spotlighting comfort, it places you directly on top of an ultra-soft foam midsole. The engineered knit upper keeps it airy and lightweight, while the bootie-like fit gives your foot a hug with every step. Get going, keep going—it's as easy as 1, 2.",
+                    "price": 279,
+                    "slug": "nike-ispa-link",
+                    "image": {
+                        "data": {
+                            "attributes": {
+                                "formats": {
+                                    "thumbnail": {
+                                        "name": "thumbnail_ispa-link-shoes-ZN622v.jpg",
+                                        "hash": "thumbnail_ispa_link_shoes_ZN_622v_3cb3a24ec1",
+                                        "ext": ".jpg",
+                                        "mime": "image/jpeg",
+                                        "path": null,
+                                        "width": 125,
+                                        "height": 156,
+                                        "size": 2.26,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662886910/thumbnail_ispa_link_shoes_ZN_622v_3cb3a24ec1.jpg",
+                                        "provider_metadata": {
+                                            "public_id": "thumbnail_ispa_link_shoes_ZN_622v_3cb3a24ec1",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "small": {
+                                        "name": "small_ispa-link-shoes-ZN622v.jpg",
+                                        "hash": "small_ispa_link_shoes_ZN_622v_3cb3a24ec1",
+                                        "ext": ".jpg",
+                                        "mime": "image/jpeg",
+                                        "path": null,
+                                        "width": 400,
+                                        "height": 500,
+                                        "size": 16.08,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662886910/small_ispa_link_shoes_ZN_622v_3cb3a24ec1.jpg",
+                                        "provider_metadata": {
+                                            "public_id": "small_ispa_link_shoes_ZN_622v_3cb3a24ec1",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "medium": {
+                                        "name": "medium_ispa-link-shoes-ZN622v.jpg",
+                                        "hash": "medium_ispa_link_shoes_ZN_622v_3cb3a24ec1",
+                                        "ext": ".jpg",
+                                        "mime": "image/jpeg",
+                                        "path": null,
+                                        "width": 600,
+                                        "height": 750,
+                                        "size": 32.88,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662886910/medium_ispa_link_shoes_ZN_622v_3cb3a24ec1.jpg",
+                                        "provider_metadata": {
+                                            "public_id": "medium_ispa_link_shoes_ZN_622v_3cb3a24ec1",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "large": {
+                                        "name": "large_ispa-link-shoes-ZN622v.jpg",
+                                        "hash": "large_ispa_link_shoes_ZN_622v_3cb3a24ec1",
+                                        "ext": ".jpg",
+                                        "mime": "image/jpeg",
+                                        "path": null,
+                                        "width": 800,
+                                        "height": 1000,
+                                        "size": 53.73,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662886910/large_ispa_link_shoes_ZN_622v_3cb3a24ec1.jpg",
+                                        "provider_metadata": {
+                                            "public_id": "large_ispa_link_shoes_ZN_622v_3cb3a24ec1",
+                                            "resource_type": "image"
+                                        }
+                                    }
+                                },
+                                "__typename": "UploadFile"
+                            },
+                            "__typename": "UploadFileEntity"
+                        },
+                        "__typename": "UploadFileEntityResponse"
+                    },
+                    "__typename": "Product"
+                },
+                "__typename": "ProductEntity"
+            },
+            {
+                "attributes": {
+                    "title": "Nike Air Huarache",
+                    "description": "Built to fit your foot and designed for comfort, the Nike Air Huarache brings back a street-level favourite. Soft leather accents on the upper are mixed with super-breathable, perfectly shined neoprene-like fabric for easy styling. The low-cut collar and bootie-like construction keep it sleek. Its iconic heel clip and stripped-away branding keep the early '90s look you love.",
+                    "price": 129,
+                    "slug": "nike-air-huarache",
+                    "image": {
+                        "data": {
+                            "attributes": {
+                                "formats": {
+                                    "thumbnail": {
+                                        "name": "thumbnail_93a71132-c8b3-4695-a6e8-1cba2c3d50d7.webp",
+                                        "hash": "thumbnail_93a71132_c8b3_4695_a6e8_1cba2c3d50d7_79f6988361",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 125,
+                                        "height": 156,
+                                        "size": 1.53,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662886972/thumbnail_93a71132_c8b3_4695_a6e8_1cba2c3d50d7_79f6988361.webp",
+                                        "provider_metadata": {
+                                            "public_id": "thumbnail_93a71132_c8b3_4695_a6e8_1cba2c3d50d7_79f6988361",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "small": {
+                                        "name": "small_93a71132-c8b3-4695-a6e8-1cba2c3d50d7.webp",
+                                        "hash": "small_93a71132_c8b3_4695_a6e8_1cba2c3d50d7_79f6988361",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 400,
+                                        "height": 500,
+                                        "size": 9.03,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662886972/small_93a71132_c8b3_4695_a6e8_1cba2c3d50d7_79f6988361.webp",
+                                        "provider_metadata": {
+                                            "public_id": "small_93a71132_c8b3_4695_a6e8_1cba2c3d50d7_79f6988361",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "medium": {
+                                        "name": "medium_93a71132-c8b3-4695-a6e8-1cba2c3d50d7.webp",
+                                        "hash": "medium_93a71132_c8b3_4695_a6e8_1cba2c3d50d7_79f6988361",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 600,
+                                        "height": 750,
+                                        "size": 16.78,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662886972/medium_93a71132_c8b3_4695_a6e8_1cba2c3d50d7_79f6988361.webp",
+                                        "provider_metadata": {
+                                            "public_id": "medium_93a71132_c8b3_4695_a6e8_1cba2c3d50d7_79f6988361",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "large": {
+                                        "name": "large_93a71132-c8b3-4695-a6e8-1cba2c3d50d7.webp",
+                                        "hash": "large_93a71132_c8b3_4695_a6e8_1cba2c3d50d7_79f6988361",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 800,
+                                        "height": 1000,
+                                        "size": 25.3,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662886972/large_93a71132_c8b3_4695_a6e8_1cba2c3d50d7_79f6988361.webp",
+                                        "provider_metadata": {
+                                            "public_id": "large_93a71132_c8b3_4695_a6e8_1cba2c3d50d7_79f6988361",
+                                            "resource_type": "image"
+                                        }
+                                    }
+                                },
+                                "__typename": "UploadFile"
+                            },
+                            "__typename": "UploadFileEntity"
+                        },
+                        "__typename": "UploadFileEntityResponse"
+                    },
+                    "__typename": "Product"
+                },
+                "__typename": "ProductEntity"
+            },
+            {
+                "attributes": {
+                    "title": "Nike KD15 EP",
+                    "description": "Kevin Durant thrives on big games. When the stakes are high, he'll play every minute if it means getting a crucial victory. The KD15 is ready to go the distance. Lighter than his previous signature shoe, it helps you stay bouncy and comfortable at crunch time. The ride is as smooth as KD's pull-up jumper and the cushioning is as plush as his right-to-left crossover in traffic, so that you can feel contained when your team needs you the most. This version is made for outdoor court use with its extra-durable rubber outsole.",
+                    "price": 99,
+                    "slug": "nike-kd-15-ep",
+                    "image": {
+                        "data": {
+                            "attributes": {
+                                "formats": {
+                                    "small": {
+                                        "name": "small_72a93de5-4626-4656-94bd-a16f0e3288ea.webp",
+                                        "hash": "small_72a93de5_4626_4656_94bd_a16f0e3288ea_66c0e51b3e",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 400,
+                                        "height": 500,
+                                        "size": 8.66,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662887012/small_72a93de5_4626_4656_94bd_a16f0e3288ea_66c0e51b3e.webp",
+                                        "provider_metadata": {
+                                            "public_id": "small_72a93de5_4626_4656_94bd_a16f0e3288ea_66c0e51b3e",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "large": {
+                                        "name": "large_72a93de5-4626-4656-94bd-a16f0e3288ea.webp",
+                                        "hash": "large_72a93de5_4626_4656_94bd_a16f0e3288ea_66c0e51b3e",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 800,
+                                        "height": 1000,
+                                        "size": 24.42,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662887013/large_72a93de5_4626_4656_94bd_a16f0e3288ea_66c0e51b3e.webp",
+                                        "provider_metadata": {
+                                            "public_id": "large_72a93de5_4626_4656_94bd_a16f0e3288ea_66c0e51b3e",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "medium": {
+                                        "name": "medium_72a93de5-4626-4656-94bd-a16f0e3288ea.webp",
+                                        "hash": "medium_72a93de5_4626_4656_94bd_a16f0e3288ea_66c0e51b3e",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 600,
+                                        "height": 750,
+                                        "size": 16.15,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662887013/medium_72a93de5_4626_4656_94bd_a16f0e3288ea_66c0e51b3e.webp",
+                                        "provider_metadata": {
+                                            "public_id": "medium_72a93de5_4626_4656_94bd_a16f0e3288ea_66c0e51b3e",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "thumbnail": {
+                                        "name": "thumbnail_72a93de5-4626-4656-94bd-a16f0e3288ea.webp",
+                                        "hash": "thumbnail_72a93de5_4626_4656_94bd_a16f0e3288ea_66c0e51b3e",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 125,
+                                        "height": 156,
+                                        "size": 1.51,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662887012/thumbnail_72a93de5_4626_4656_94bd_a16f0e3288ea_66c0e51b3e.webp",
+                                        "provider_metadata": {
+                                            "public_id": "thumbnail_72a93de5_4626_4656_94bd_a16f0e3288ea_66c0e51b3e",
+                                            "resource_type": "image"
+                                        }
+                                    }
+                                },
+                                "__typename": "UploadFile"
+                            },
+                            "__typename": "UploadFileEntity"
+                        },
+                        "__typename": "UploadFileEntityResponse"
+                    },
+                    "__typename": "Product"
+                },
+                "__typename": "ProductEntity"
+            },
+            {
+                "attributes": {
+                    "title": "Nike ISPA Sense Flyknit",
+                    "description": "Breathe in. Breathe out. The ISPA Sense is your ticket to tranquillity. Mixing sustainable materials (it's made from at least 20% recycled content by weight) with meditative comfort, the design pulls inspiration from Zen gardens. The stretchy, bootie-like upper with an airy Flyknit design integrates venting and padding for extra on-foot bliss. Tie it all together with the sleek lacing system and then stay upright with added traction on the outsole. Do good, look good, and overcome the urban environment's most challenging obstacles with this fresh design that gives new meaning to rest and relaxation.",
+                    "price": 229,
+                    "slug": "nike-ispa-sense-flyknit",
+                    "image": {
+                        "data": {
+                            "attributes": {
+                                "formats": {
+                                    "thumbnail": {
+                                        "name": "thumbnail_d9dfbd18-d31a-410f-87db-aeaa405520d1.webp",
+                                        "hash": "thumbnail_d9dfbd18_d31a_410f_87db_aeaa405520d1_edf7681925",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 125,
+                                        "height": 156,
+                                        "size": 1.45,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662887062/thumbnail_d9dfbd18_d31a_410f_87db_aeaa405520d1_edf7681925.webp",
+                                        "provider_metadata": {
+                                            "public_id": "thumbnail_d9dfbd18_d31a_410f_87db_aeaa405520d1_edf7681925",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "small": {
+                                        "name": "small_d9dfbd18-d31a-410f-87db-aeaa405520d1.webp",
+                                        "hash": "small_d9dfbd18_d31a_410f_87db_aeaa405520d1_edf7681925",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 400,
+                                        "height": 500,
+                                        "size": 9.8,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662887063/small_d9dfbd18_d31a_410f_87db_aeaa405520d1_edf7681925.webp",
+                                        "provider_metadata": {
+                                            "public_id": "small_d9dfbd18_d31a_410f_87db_aeaa405520d1_edf7681925",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "large": {
+                                        "name": "large_d9dfbd18-d31a-410f-87db-aeaa405520d1.webp",
+                                        "hash": "large_d9dfbd18_d31a_410f_87db_aeaa405520d1_edf7681925",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 800,
+                                        "height": 1000,
+                                        "size": 29.88,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662887063/large_d9dfbd18_d31a_410f_87db_aeaa405520d1_edf7681925.webp",
+                                        "provider_metadata": {
+                                            "public_id": "large_d9dfbd18_d31a_410f_87db_aeaa405520d1_edf7681925",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "medium": {
+                                        "name": "medium_d9dfbd18-d31a-410f-87db-aeaa405520d1.webp",
+                                        "hash": "medium_d9dfbd18_d31a_410f_87db_aeaa405520d1_edf7681925",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 600,
+                                        "height": 750,
+                                        "size": 19.05,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662887063/medium_d9dfbd18_d31a_410f_87db_aeaa405520d1_edf7681925.webp",
+                                        "provider_metadata": {
+                                            "public_id": "medium_d9dfbd18_d31a_410f_87db_aeaa405520d1_edf7681925",
+                                            "resource_type": "image"
+                                        }
+                                    }
+                                },
+                                "__typename": "UploadFile"
+                            },
+                            "__typename": "UploadFileEntity"
+                        },
+                        "__typename": "UploadFileEntityResponse"
+                    },
+                    "__typename": "Product"
+                },
+                "__typename": "ProductEntity"
+            },
+            {
+                "attributes": {
+                    "title": "Nike Air Kukini",
+                    "description": "Let opposites attract with the Nike Air Kukini. Bridging casual and technical, its stretchy, neoprene-like fabric hugs your foot while the caged support system adds a sporty finish inspired by '90s ski suits. Visible Air cushioning puts the cherry on the bottom for this boundary-pushing paradox of comfort.",
+                    "price": 129,
+                    "slug": "nike-air-kukini",
+                    "image": {
+                        "data": {
+                            "attributes": {
+                                "formats": {
+                                    "medium": {
+                                        "name": "medium_ca8eb066-3361-423f-8eb2-5bb60b9981dd.webp",
+                                        "hash": "medium_ca8eb066_3361_423f_8eb2_5bb60b9981dd_c219e69254",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 600,
+                                        "height": 750,
+                                        "size": 12.25,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662887104/medium_ca8eb066_3361_423f_8eb2_5bb60b9981dd_c219e69254.webp",
+                                        "provider_metadata": {
+                                            "public_id": "medium_ca8eb066_3361_423f_8eb2_5bb60b9981dd_c219e69254",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "thumbnail": {
+                                        "name": "thumbnail_ca8eb066-3361-423f-8eb2-5bb60b9981dd.webp",
+                                        "hash": "thumbnail_ca8eb066_3361_423f_8eb2_5bb60b9981dd_c219e69254",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 125,
+                                        "height": 156,
+                                        "size": 1.27,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662887104/thumbnail_ca8eb066_3361_423f_8eb2_5bb60b9981dd_c219e69254.webp",
+                                        "provider_metadata": {
+                                            "public_id": "thumbnail_ca8eb066_3361_423f_8eb2_5bb60b9981dd_c219e69254",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "small": {
+                                        "name": "small_ca8eb066-3361-423f-8eb2-5bb60b9981dd.webp",
+                                        "hash": "small_ca8eb066_3361_423f_8eb2_5bb60b9981dd_c219e69254",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 400,
+                                        "height": 500,
+                                        "size": 6.57,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662887104/small_ca8eb066_3361_423f_8eb2_5bb60b9981dd_c219e69254.webp",
+                                        "provider_metadata": {
+                                            "public_id": "small_ca8eb066_3361_423f_8eb2_5bb60b9981dd_c219e69254",
+                                            "resource_type": "image"
+                                        }
+                                    },
+                                    "large": {
+                                        "name": "large_ca8eb066-3361-423f-8eb2-5bb60b9981dd.webp",
+                                        "hash": "large_ca8eb066_3361_423f_8eb2_5bb60b9981dd_c219e69254",
+                                        "ext": ".webp",
+                                        "mime": "image/webp",
+                                        "path": null,
+                                        "width": 800,
+                                        "height": 1000,
+                                        "size": 19.65,
+                                        "url": "https://res.cloudinary.com/devsleqoe/image/upload/v1662887104/large_ca8eb066_3361_423f_8eb2_5bb60b9981dd_c219e69254.webp",
+                                        "provider_metadata": {
+                                            "public_id": "large_ca8eb066_3361_423f_8eb2_5bb60b9981dd_c219e69254",
+                                            "resource_type": "image"
+                                        }
+                                    }
+                                },
+                                "__typename": "UploadFile"
+                            },
+                            "__typename": "UploadFileEntity"
+                        },
+                        "__typename": "UploadFileEntityResponse"
+                    },
+                    "__typename": "Product"
+                },
+                "__typename": "ProductEntity"
+            }
+        ],
+        "__typename": "ProductEntityResponseCollection"
+    }
+}
